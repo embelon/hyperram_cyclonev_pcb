@@ -1,3 +1,4 @@
 (sym_lib_table
+  (version 7)
   (lib (name "hyperram_cyclonev")(type "KiCad")(uri "${KIPRJMOD}/hyperram_cyclonev.kicad_sym")(options "")(descr ""))
 )
