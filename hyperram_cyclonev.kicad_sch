@@ -8013,7 +8013,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x06_Top_Bottom"
+		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -8027,7 +8027,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x06_Top_Bottom"
+			(property "Value" "Conn_02x06_Odd_Even"
 				(at 1.27 -10.16 0)
 				(effects
 					(font
@@ -8053,7 +8053,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8080,7 +8080,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x06_Top_Bottom_1_1"
+			(symbol "Conn_02x06_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -7.493)
 					(end 0 -7.747)
@@ -8243,7 +8243,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -8261,7 +8261,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -8297,7 +8297,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -8315,7 +8315,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -8333,7 +8333,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -8351,7 +8351,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -8369,7 +8369,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -8387,7 +8387,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -8405,7 +8405,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -8423,7 +8423,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -22508,13 +22508,13 @@
 		(uuid "17ece9c2-f956-4060-ae1b-15def805bbe5")
 	)
 	(label "pmod3_io0p"
-		(at 193.04 113.03 0)
+		(at 231.14 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1d092384-1094-497f-b455-09afefb73e09")
 	)
@@ -22662,13 +22662,13 @@
 		(uuid "28eca66e-4d46-41a8-ad01-81dd504ee13a")
 	)
 	(label "pmod5_io3"
-		(at 135.89 39.37 0)
+		(at 173.99 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2966beb8-1c90-4953-a11c-164ae26257c8")
 	)
@@ -22860,7 +22860,7 @@
 		(uuid "39c0326d-3e07-4bd2-bc0d-679d01ec07ed")
 	)
 	(label "pmod3_io7p"
-		(at 231.14 149.86 180)
+		(at 231.14 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22915,13 +22915,13 @@
 		(uuid "45c7e880-7857-486f-9d2f-35005f9c7d3e")
 	)
 	(label "pmod5_io4"
-		(at 173.99 31.75 180)
+		(at 135.89 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "468c226f-47a0-48d5-8274-d23ac3ca10d1")
 	)
@@ -22937,7 +22937,7 @@
 		(uuid "49922847-006c-400d-b3ac-5e5738811f68")
 	)
 	(label "pmod5_io0"
-		(at 135.89 31.75 0)
+		(at 135.89 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23058,7 +23058,7 @@
 		(uuid "5a4ac521-aff8-404e-a9d7-0a54e2c0f39c")
 	)
 	(label "pmod3_io3p"
-		(at 231.14 118.11 180)
+		(at 231.14 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23949,13 +23949,13 @@
 		(uuid "b1fbf1f1-9853-4f29-b397-6d6611f5573d")
 	)
 	(label "pmod3_io5p"
-		(at 193.04 149.86 0)
+		(at 231.14 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b2138eaa-6394-4417-8200-af7df7592a36")
 	)
@@ -24004,13 +24004,13 @@
 		(uuid "b9b7a123-ef22-4435-bc82-cf5df4196c07")
 	)
 	(label "pmod5_io6"
-		(at 173.99 36.83 180)
+		(at 135.89 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ba3d1fde-736f-4a6f-bcd5-c41ccb8d2a5b")
 	)
@@ -24191,13 +24191,13 @@
 		(uuid "c9d4c0f7-2012-4a68-b487-bf0718e9a20d")
 	)
 	(label "pmod3_io6n"
-		(at 231.14 142.24 180)
+		(at 193.04 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c9d7d525-9953-4362-b551-5471a6a96b78")
 	)
@@ -24356,7 +24356,7 @@
 		(uuid "d94844cc-3f03-4ef7-bf7f-edfcb137ba25")
 	)
 	(label "pmod3_io4n"
-		(at 193.04 142.24 0)
+		(at 193.04 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24422,13 +24422,13 @@
 		(uuid "e0012704-e036-4c2c-bdd1-9a44ab737b95")
 	)
 	(label "pmod3_io4p"
-		(at 193.04 144.78 0)
+		(at 231.14 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e055a721-ad2a-42b4-b02e-2eff3104023f")
 	)
@@ -24477,24 +24477,24 @@
 		(uuid "e222f929-8665-4a1c-a808-89be855daa04")
 	)
 	(label "pmod3_io7n"
-		(at 231.14 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e250b429-7974-4995-888d-53eaf77e34dc")
-	)
-	(label "pmod3_io1p"
-		(at 193.04 118.11 0)
+		(at 193.04 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "e250b429-7974-4995-888d-53eaf77e34dc")
+	)
+	(label "pmod3_io1p"
+		(at 231.14 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "e2cb0f5f-945f-4d22-94c6-a7ce3e1db79c")
 	)
@@ -24510,7 +24510,7 @@
 		(uuid "e5298f6f-2a8a-4823-86ae-d5da7d430a43")
 	)
 	(label "pmod3_io0n"
-		(at 193.04 110.49 0)
+		(at 193.04 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24521,7 +24521,7 @@
 		(uuid "e5b70c7c-0f6b-41e6-acd6-778d4b00a89a")
 	)
 	(label "pmod5_io7"
-		(at 173.99 39.37 180)
+		(at 173.99 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24554,13 +24554,13 @@
 		(uuid "eb545101-3e4b-450b-a0c1-8360ec2e8976")
 	)
 	(label "pmod3_io3n"
-		(at 231.14 115.57 180)
+		(at 193.04 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ec729ccf-02e3-45d1-bc0b-a1e7f3c27815")
 	)
@@ -24631,24 +24631,24 @@
 		(uuid "f680b4b9-34ca-40ab-9e18-0293dfb1e281")
 	)
 	(label "pmod3_io2n"
-		(at 231.14 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f7a8ad37-3dd6-4423-b9a9-c3e0c5a24149")
-	)
-	(label "pmod5_io1"
-		(at 135.89 34.29 0)
+		(at 193.04 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "f7a8ad37-3dd6-4423-b9a9-c3e0c5a24149")
+	)
+	(label "pmod5_io1"
+		(at 173.99 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "f92bea4e-46c3-4e4e-8a87-8b11410eb35e")
 	)
@@ -24956,6 +24956,104 @@
 			(project "hyperram_cyclonev"
 				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 210.82 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04785b0d-333e-4526-aa04-21e76d295c49")
+		(property "Reference" "J6"
+			(at 212.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 212.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hyperram_cyclonev:610112249221"
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "eea05804-54e3-4e00-83bf-e0e4825bd12a")
+		)
+		(pin "11"
+			(uuid "d407240f-7c81-4a64-9fe6-45745ac01520")
+		)
+		(pin "2"
+			(uuid "eabace26-e6b3-45d9-a069-51201255f875")
+		)
+		(pin "9"
+			(uuid "51aae671-1584-4a5a-8a30-edf12c02a81f")
+		)
+		(pin "4"
+			(uuid "90e15728-64a7-4c05-b487-f99ae55a323f")
+		)
+		(pin "3"
+			(uuid "83a5056a-5fe4-4a25-874f-921d2e71d52f")
+		)
+		(pin "1"
+			(uuid "dfd127d9-fdcd-451e-bfad-a41525171528")
+		)
+		(pin "8"
+			(uuid "02dc05d1-9276-42e9-b36d-1ee8f5256067")
+		)
+		(pin "12"
+			(uuid "cbc0f173-41a0-4280-aaf3-5c57b74a4db9")
+		)
+		(pin "10"
+			(uuid "ec0c32bc-0f21-4206-b93b-a2321c16aa3c")
+		)
+		(pin "7"
+			(uuid "6b5caccf-2cdb-40ef-be64-ee0147b9a83b")
+		)
+		(pin "5"
+			(uuid "b7aeee9f-ae88-40f8-865d-52f00040af78")
+		)
+		(instances
+			(project "hyperram_cyclonev"
+				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -29515,104 +29613,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 210.82 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e24da26-7938-4d80-af37-c093fa212b3f")
-		(property "Reference" "J6"
-			(at 212.09 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 212.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hyperram_cyclonev:610112249221"
-			(at 210.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31925687-5382-429a-aa7f-03dc5beb6bce")
-		)
-		(pin "10"
-			(uuid "4ff63416-5f94-41ea-bbc8-81d9a883eb1f")
-		)
-		(pin "11"
-			(uuid "e0f53f60-9686-45a8-a72d-b499829518ee")
-		)
-		(pin "12"
-			(uuid "b899b685-0d82-411b-a580-8d87be23d6c9")
-		)
-		(pin "2"
-			(uuid "fb9b5b4d-e030-4b86-8939-693de9f8d5de")
-		)
-		(pin "3"
-			(uuid "81afc663-e37a-4b06-9441-c20781aba1b3")
-		)
-		(pin "4"
-			(uuid "ab528281-125c-4ee5-bfaf-cfddfc8003ae")
-		)
-		(pin "5"
-			(uuid "88b592ee-5a21-47d2-b800-b5b7f563de6c")
-		)
-		(pin "6"
-			(uuid "1e4e0776-f36d-4461-bd65-90bedf38859b")
-		)
-		(pin "7"
-			(uuid "3c6d8e67-1797-4290-a7e9-9f740ad33b26")
-		)
-		(pin "8"
-			(uuid "eefe5d28-ed5c-4252-9fe3-a70c2dcfd622")
-		)
-		(pin "9"
-			(uuid "97951cb0-1a0e-4702-81d7-b9b500f24783")
-		)
-		(instances
-			(project "hyperram_cyclonev"
-				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_3_Bridged12")
 		(at 193.04 34.29 180)
 		(unit 1)
@@ -30586,6 +30586,104 @@
 			(project "hyperram_cyclonev"
 				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 153.67 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e9cf1e-dc48-4e4e-b660-67e0819244fb")
+		(property "Reference" "J5"
+			(at 154.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hyperram_cyclonev:610112249221"
+			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a11cb5f7-b9fd-4205-a01b-b7a9041f33e6")
+		)
+		(pin "11"
+			(uuid "546687dc-af82-47c8-9296-a9d1698248e0")
+		)
+		(pin "2"
+			(uuid "853c100d-0674-48a6-9b52-75da3a7fded8")
+		)
+		(pin "9"
+			(uuid "9c38e80a-4746-4bec-aa3a-a56ad53f1d51")
+		)
+		(pin "4"
+			(uuid "3a46f16e-08f1-40de-9771-bae9f7c9e35f")
+		)
+		(pin "3"
+			(uuid "71cf5e07-d4cf-4e75-bba3-02caf6ebc20b")
+		)
+		(pin "1"
+			(uuid "b944b900-1a0f-4787-acd1-29499b8e1532")
+		)
+		(pin "8"
+			(uuid "0c65604e-eef1-4812-b36b-d4118a8a5a2c")
+		)
+		(pin "12"
+			(uuid "58864b46-ed71-4d43-b923-0824e3cc78e4")
+		)
+		(pin "10"
+			(uuid "613d4416-1894-4cd1-a666-f696b4ad9a2f")
+		)
+		(pin "7"
+			(uuid "3dc58df2-2ac2-4f92-b1e3-8b53aac9df8d")
+		)
+		(pin "5"
+			(uuid "368e0e56-f324-4cdd-a8dc-808ab5081d20")
+		)
+		(instances
+			(project "hyperram_cyclonev"
+				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -32252,104 +32350,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 153.67 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afe37d4b-58af-4089-be7b-99d03004d51b")
-		(property "Reference" "J5"
-			(at 154.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 154.94 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hyperram_cyclonev:610112249221"
-			(at 153.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af4bc461-2b06-48b9-a3b4-fde812458c26")
-		)
-		(pin "10"
-			(uuid "b41ffe02-7fc6-4767-b795-8666e0475ba6")
-		)
-		(pin "11"
-			(uuid "05d1fbb4-2275-48bf-8091-93cc4f593933")
-		)
-		(pin "12"
-			(uuid "e1d9c492-2903-4eb7-8cda-50b49a139aa8")
-		)
-		(pin "2"
-			(uuid "c2b0e962-83a3-4966-bd68-93d726955dbb")
-		)
-		(pin "3"
-			(uuid "bb250caa-ede4-4151-b498-b52d53b8e824")
-		)
-		(pin "4"
-			(uuid "372a768e-5e98-4d7e-8824-fd278f6d738d")
-		)
-		(pin "5"
-			(uuid "8593cca1-dd5a-4aba-9a4f-5644cf238718")
-		)
-		(pin "6"
-			(uuid "a58a7543-39ae-4603-b04e-d2a4da0874ff")
-		)
-		(pin "7"
-			(uuid "e97a5442-557b-43ed-81a7-b546e08ef2fa")
-		)
-		(pin "8"
-			(uuid "dcae9497-7b1f-429f-9931-9f6c9fb444bc")
-		)
-		(pin "9"
-			(uuid "0fb2c559-4de0-4fce-bbe0-2aaafeb99ea7")
-		)
-		(instances
-			(project "hyperram_cyclonev"
-				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "hyperram_cyclonev:NRS6028T4R7MMGKV")
 		(at 172.72 69.85 0)
 		(unit 1)
@@ -32726,6 +32726,104 @@
 			(project "hyperram_cyclonev"
 				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 210.82 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3f2f9d8-f4d9-4cfb-aa56-ff492f72e362")
+		(property "Reference" "J7"
+			(at 212.09 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hyperram_cyclonev:610112249221"
+			(at 210.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 210.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "99d08f9b-09e3-4c07-96aa-eb988b37598a")
+		)
+		(pin "11"
+			(uuid "84af1ea5-076e-45af-a358-487976c26f4e")
+		)
+		(pin "2"
+			(uuid "25ad36b7-706b-442c-9d03-da96a1220fa4")
+		)
+		(pin "9"
+			(uuid "66830f93-dc67-4e6c-b013-54f93a76b0ca")
+		)
+		(pin "4"
+			(uuid "65596b1e-6340-45cc-9e1e-8509522dc999")
+		)
+		(pin "3"
+			(uuid "6eb5a360-b489-44bd-95c6-43a4a0482528")
+		)
+		(pin "1"
+			(uuid "ca2aa8bd-ed29-4dda-aff5-6d661ad51363")
+		)
+		(pin "8"
+			(uuid "c2034aff-940e-4f3f-80be-58da630d028d")
+		)
+		(pin "12"
+			(uuid "3738d29c-fdb2-4c1c-880d-2f9b6e280c57")
+		)
+		(pin "10"
+			(uuid "bb78f5e5-c1b0-489f-8b42-db3929f97cd2")
+		)
+		(pin "7"
+			(uuid "414f2536-67d3-49c3-b7d4-f7969eb73518")
+		)
+		(pin "5"
+			(uuid "b9431280-c3bf-4f4f-a208-b49ae7528d4f")
+		)
+		(instances
+			(project "hyperram_cyclonev"
+				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -34598,104 +34696,6 @@
 			(project "hyperram_cyclonev"
 				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 210.82 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d73d5117-f43e-4938-92d0-c7d8f142362a")
-		(property "Reference" "J7"
-			(at 212.09 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 212.09 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hyperram_cyclonev:610112249221"
-			(at 210.82 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3121d99b-0325-44dd-b00c-26412d0c2946")
-		)
-		(pin "10"
-			(uuid "bea41110-73a6-46a4-8219-63af5e5b2050")
-		)
-		(pin "11"
-			(uuid "f397e5d3-d053-42d1-a9e8-88d0d275cf0d")
-		)
-		(pin "12"
-			(uuid "738ff8cf-e008-463c-83cd-e619e3a6b671")
-		)
-		(pin "2"
-			(uuid "7cbf310a-40c9-4c20-b062-27000e5317f5")
-		)
-		(pin "3"
-			(uuid "a33832c6-48e8-463e-b096-312ece885325")
-		)
-		(pin "4"
-			(uuid "320c3714-b705-4ac1-b9d3-b791a00698ca")
-		)
-		(pin "5"
-			(uuid "d989a590-a418-4432-a92b-c2054c4efb16")
-		)
-		(pin "6"
-			(uuid "cd3d5ada-1c89-4c94-9854-b46a12da246f")
-		)
-		(pin "7"
-			(uuid "83654b33-e669-46bf-854f-40fc5d93d222")
-		)
-		(pin "8"
-			(uuid "bbbf1df2-19a4-4dd0-9aec-b631915f8d37")
-		)
-		(pin "9"
-			(uuid "a6373821-695f-4f61-b6b2-09ba844f4a3d")
-		)
-		(instances
-			(project "hyperram_cyclonev"
-				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
-					(reference "J7")
 					(unit 1)
 				)
 			)
