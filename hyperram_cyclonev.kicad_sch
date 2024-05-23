@@ -23083,7 +23083,7 @@
 		(uuid "2a58a684-2b7d-4fcc-93eb-19c25eec606c")
 	)
 	(label "ddc_dat"
-		(at 64.77 154.94 180)
+		(at 64.77 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23402,7 +23402,7 @@
 		(uuid "5695a350-7416-4291-9ce2-cbef3dfa8b6f")
 	)
 	(label "ddc_clk"
-		(at 64.77 152.4 180)
+		(at 64.77 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23479,7 +23479,7 @@
 		(uuid "5da8c2b7-2aca-4df5-a7fc-b6972cb3ab78")
 	)
 	(label "hpdet"
-		(at 19.05 154.94 0)
+		(at 19.05 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23798,13 +23798,13 @@
 		(uuid "82e40162-47db-499a-ad47-32514ad66dd8")
 	)
 	(label "xhdmi_d2p"
-		(at 116.84 152.4 180)
+		(at 71.12 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "833854c5-71a6-40cc-a94d-9c216d38e251")
 	)
@@ -23886,13 +23886,13 @@
 		(uuid "8a2ddaea-04e6-4eae-bd9b-eafb0d4b9da1")
 	)
 	(label "xhdmi_d0n"
-		(at 19.05 130.81 0)
+		(at 64.77 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8c20068b-a919-4cd9-b7bb-8b6e9ebbdf73")
 	)
@@ -23908,7 +23908,7 @@
 		(uuid "8c368981-5457-43be-b293-f7c042486c40")
 	)
 	(label "xhdmi_d1p"
-		(at 116.84 154.94 180)
+		(at 116.84 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23919,7 +23919,7 @@
 		(uuid "8e41a46c-915b-41bd-8c71-47dcf7747380")
 	)
 	(label "hf_pscn"
-		(at 222.25 223.52 180)
+		(at 222.25 215.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23930,7 +23930,7 @@
 		(uuid "8edac3b0-a52f-4c8b-a2b7-d6afca289cdb")
 	)
 	(label "hr2_rstn"
-		(at 222.25 208.28 180)
+		(at 222.25 210.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24051,7 +24051,7 @@
 		(uuid "97ff3539-a57c-4e9d-8d34-9946da14adcb")
 	)
 	(label "hr2_rwds"
-		(at 222.25 218.44 180)
+		(at 222.25 226.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24062,7 +24062,7 @@
 		(uuid "9818825a-8ebe-49df-bb35-1cebbf51e167")
 	)
 	(label "hf_intn"
-		(at 222.25 210.82 180)
+		(at 222.25 208.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24073,7 +24073,7 @@
 		(uuid "9838b5c3-6149-4934-a797-f1b4a5684059")
 	)
 	(label "cec"
-		(at 19.05 152.4 0)
+		(at 19.05 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24139,7 +24139,7 @@
 		(uuid "9f3e839e-4718-41b0-8faf-c4587435bf7a")
 	)
 	(label "hf_csn"
-		(at 222.25 215.9 180)
+		(at 222.25 223.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24348,7 +24348,7 @@
 		(uuid "b2138eaa-6394-4417-8200-af7df7592a36")
 	)
 	(label "hf_psc"
-		(at 222.25 226.06 180)
+		(at 222.25 218.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24414,13 +24414,13 @@
 		(uuid "bdcccda6-1a43-459a-b209-36f7f7c6911e")
 	)
 	(label "xhdmi_d2n"
-		(at 71.12 154.94 0)
+		(at 116.84 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bddbfd9d-7c2c-4a52-82dd-ca583a0ed952")
 	)
@@ -24458,7 +24458,7 @@
 		(uuid "c2522603-b843-48e8-afbb-84c2ee616f2a")
 	)
 	(label "xhdmi_clkp"
-		(at 64.77 130.81 180)
+		(at 64.77 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24700,13 +24700,13 @@
 		(uuid "d739cac6-1c6f-497b-a44d-8edd692ae63c")
 	)
 	(label "xhdmi_d0p"
-		(at 64.77 128.27 180)
+		(at 19.05 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d7aa175d-4a27-4ba3-a897-9d76b5df9ea1")
 	)
@@ -25232,7 +25232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 93.98 124.46 0)
 			(effects
 				(font
@@ -29267,7 +29267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 93.98 118.11 0)
 			(effects
 				(font
@@ -29345,7 +29345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -29640,7 +29640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 93.98 99.06 0)
 			(effects
 				(font
@@ -32828,7 +32828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 93.98 143.51 0)
 			(effects
 				(font
@@ -33234,7 +33234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 93.98 111.76 0)
 			(effects
 				(font
@@ -36218,7 +36218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -37266,7 +37266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 93.98 137.16 0)
 			(effects
 				(font
