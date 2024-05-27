@@ -22741,7 +22741,7 @@
 		)
 		(uuid "00d46f6e-af5f-485b-a78e-4ba78ba2ce52")
 	)
-	(label "xhdmi_clkp"
+	(label "xhdmi_clk+"
 		(at 76.2 50.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22785,7 +22785,7 @@
 		)
 		(uuid "08798126-dd28-4585-87c3-15bdb5af3271")
 	)
-	(label "xhdmi_d1n"
+	(label "xhdmi_d1-"
 		(at 110.49 130.81 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22796,7 +22796,7 @@
 		)
 		(uuid "08beffde-2253-422d-98dc-e5fb9e157ecc")
 	)
-	(label "hdmi_clkp"
+	(label "hdmi_clk+"
 		(at 158.75 195.58 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22807,7 +22807,7 @@
 		)
 		(uuid "0a6d729f-5af2-4906-a864-fc334ffbfb75")
 	)
-	(label "xhdmi_clkn"
+	(label "xhdmi_clk-"
 		(at 19.05 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22829,7 +22829,7 @@
 		)
 		(uuid "0b7b52cc-06c7-48de-8707-5a0bd0b744d0")
 	)
-	(label "xhdmi_clkn"
+	(label "xhdmi_clk-"
 		(at 110.49 105.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22873,7 +22873,7 @@
 		)
 		(uuid "168f8716-77a6-4819-8a12-d386fe796f11")
 	)
-	(label "hdmi_d1n"
+	(label "hdmi_d1-"
 		(at 158.75 208.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22895,7 +22895,7 @@
 		)
 		(uuid "17ece9c2-f956-4060-ae1b-15def805bbe5")
 	)
-	(label "pmod3_io0p"
+	(label "pmod3_io4"
 		(at 231.14 110.49 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22906,7 +22906,7 @@
 		)
 		(uuid "1d092384-1094-497f-b455-09afefb73e09")
 	)
-	(label "pmod3_io2p"
+	(label "pmod3_io6"
 		(at 231.14 115.57 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22917,7 +22917,7 @@
 		)
 		(uuid "1d12f671-b21c-470b-a28f-821cb27b29bc")
 	)
-	(label "xhdmi_d1p"
+	(label "xhdmi_d1+"
 		(at 110.49 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -22961,7 +22961,7 @@
 		)
 		(uuid "1f7172c9-0937-4bb6-af3c-b70c4a335533")
 	)
-	(label "hr2_clkn"
+	(label "hr2_clk-"
 		(at 295.91 212.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22983,7 +22983,7 @@
 		)
 		(uuid "23f020a1-8295-421f-a083-c2801cec7623")
 	)
-	(label "hdmi_d1p"
+	(label "hdmi_d1+"
 		(at 158.75 210.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22994,7 +22994,7 @@
 		)
 		(uuid "24a37c43-7314-4164-a14f-de1281e648f2")
 	)
-	(label "xhdmi_d0p"
+	(label "xhdmi_d0+"
 		(at 110.49 111.76 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23005,7 +23005,7 @@
 		)
 		(uuid "2531a840-e44f-4b19-9147-9837d792610d")
 	)
-	(label "xhdmi_d2p"
+	(label "xhdmi_d2+"
 		(at 76.2 35.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23016,7 +23016,7 @@
 		)
 		(uuid "25b44599-71ef-4e3b-95fb-7ced551fa34a")
 	)
-	(label "pmod3_io3p"
+	(label "pmod3_io7"
 		(at 76.2 210.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23027,7 +23027,7 @@
 		)
 		(uuid "26934495-280b-4613-8443-adc8a7a9af4b")
 	)
-	(label "hr1_clkn"
+	(label "hr1_clk-"
 		(at 340.36 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23038,7 +23038,7 @@
 		)
 		(uuid "278d273c-3cae-49a5-b0e0-a041c753afcc")
 	)
-	(label "pmod3_io1p"
+	(label "pmod3_io5"
 		(at 76.2 226.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23071,7 +23071,7 @@
 		)
 		(uuid "29d35407-f824-4dee-ad82-5f3792cab60a")
 	)
-	(label "pmod3_io5p"
+	(label "pmod3_io13"
 		(at 158.75 248.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23104,7 +23104,7 @@
 		)
 		(uuid "2c2bd011-4c01-4102-81ff-0c91819587d2")
 	)
-	(label "pmod3_io5n"
+	(label "pmod3_io9"
 		(at 193.04 144.78 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23126,7 +23126,7 @@
 		)
 		(uuid "2e065eb3-360d-4bf3-9d18-ca5c0c1941a5")
 	)
-	(label "hf_pscn"
+	(label "hf_psc-"
 		(at 349.25 204.47 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23203,7 +23203,7 @@
 		)
 		(uuid "3635a570-4d2b-4cf0-adec-7b4d0c89a367")
 	)
-	(label "hr2_clkp"
+	(label "hr2_clk+"
 		(at 295.91 214.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23225,7 +23225,7 @@
 		)
 		(uuid "389a0060-464a-44ce-a33a-dfe2169c4c1d")
 	)
-	(label "pmod3_io0p"
+	(label "pmod3_io4"
 		(at 76.2 233.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23236,7 +23236,7 @@
 		)
 		(uuid "395d8365-2ea4-4cc6-8054-4975d7e63234")
 	)
-	(label "hdmi_d2p"
+	(label "hdmi_d2+"
 		(at 158.75 203.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23247,7 +23247,7 @@
 		)
 		(uuid "39c0326d-3e07-4bd2-bc0d-679d01ec07ed")
 	)
-	(label "pmod3_io7p"
+	(label "pmod3_io15"
 		(at 231.14 149.86 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23291,7 +23291,7 @@
 		)
 		(uuid "402fb775-1b9f-47b8-92bc-15b222875f76")
 	)
-	(label "xhdmi_d2n"
+	(label "xhdmi_d2-"
 		(at 76.2 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23335,7 +23335,7 @@
 		)
 		(uuid "4aad3501-5c05-4bf2-9797-c4af4cedae74")
 	)
-	(label "pmod3_io3n"
+	(label "pmod3_io3"
 		(at 76.2 208.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23346,7 +23346,7 @@
 		)
 		(uuid "4c2fbab8-b268-4966-83f3-cb23adcb593d")
 	)
-	(label "xhdmi_clkp"
+	(label "xhdmi_clk+"
 		(at 110.49 99.06 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23368,7 +23368,7 @@
 		)
 		(uuid "4eb10f39-d736-43aa-9473-71bc96b13885")
 	)
-	(label "pmod3_io7n"
+	(label "pmod3_io11"
 		(at 158.75 231.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23445,7 +23445,7 @@
 		)
 		(uuid "5a4ac521-aff8-404e-a9d7-0a54e2c0f39c")
 	)
-	(label "pmod3_io3p"
+	(label "pmod3_io7"
 		(at 231.14 118.11 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23467,7 +23467,7 @@
 		)
 		(uuid "5c41baca-c53e-4e5e-9fe6-69cee6e97a31")
 	)
-	(label "hdmi_d1n"
+	(label "hdmi_d1-"
 		(at 78.74 130.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23489,7 +23489,7 @@
 		)
 		(uuid "5f13f162-800b-4f1c-8f0f-b34d40ccce00")
 	)
-	(label "xhdmi_d1n"
+	(label "xhdmi_d1-"
 		(at 76.2 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23522,7 +23522,7 @@
 		)
 		(uuid "61e1219f-852d-451f-a62d-47a4fe451773")
 	)
-	(label "hdmi_d1p"
+	(label "hdmi_d1+"
 		(at 78.74 124.46 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23544,7 +23544,7 @@
 		)
 		(uuid "6634c56b-6bb2-41f8-b2f0-9a7b0d785779")
 	)
-	(label "hdmi_d0p"
+	(label "hdmi_d0+"
 		(at 78.74 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23577,7 +23577,7 @@
 		)
 		(uuid "68a81108-239c-400a-a19e-a00e9586c561")
 	)
-	(label "pmod3_io1n"
+	(label "pmod3_io1"
 		(at 76.2 223.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23588,7 +23588,7 @@
 		)
 		(uuid "69715564-a734-42fc-815b-031ba0f0deeb")
 	)
-	(label "hr1_clkn"
+	(label "hr1_clk-"
 		(at 139.7 193.04 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23599,7 +23599,7 @@
 		)
 		(uuid "6b0b6373-5c10-4256-972e-14a23d7c0706")
 	)
-	(label "xhdmi_d0n"
+	(label "xhdmi_d0-"
 		(at 110.49 118.11 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23621,7 +23621,7 @@
 		)
 		(uuid "6c3db8f4-5304-4661-bc9f-27b8685553c4")
 	)
-	(label "pmod3_io7p"
+	(label "pmod3_io15"
 		(at 158.75 233.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23654,7 +23654,7 @@
 		)
 		(uuid "6ddc69bb-0cf4-4f7f-9a96-2c0078d31385")
 	)
-	(label "hr1_clkp"
+	(label "hr1_clk+"
 		(at 139.7 195.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23709,7 +23709,7 @@
 		)
 		(uuid "78c78b33-3673-4b2c-a728-cf7a890c4252")
 	)
-	(label "xhdmi_d2n"
+	(label "xhdmi_d2-"
 		(at 110.49 143.51 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23731,7 +23731,7 @@
 		)
 		(uuid "79b70fad-ac74-41fd-87b2-d63034135e08")
 	)
-	(label "xhdmi_d2p"
+	(label "xhdmi_d2+"
 		(at 110.49 137.16 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23786,7 +23786,7 @@
 		)
 		(uuid "80821dee-37f9-44bf-8686-a039ac4f9122")
 	)
-	(label "hdmi_d0p"
+	(label "hdmi_d0+"
 		(at 158.75 218.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23797,7 +23797,7 @@
 		)
 		(uuid "82e40162-47db-499a-ad47-32514ad66dd8")
 	)
-	(label "xhdmi_d2p"
+	(label "xhdmi_d2+"
 		(at 71.12 154.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23852,7 +23852,7 @@
 		)
 		(uuid "87e19449-2d7c-431b-b770-c89d62f6dc68")
 	)
-	(label "pmod3_io6p"
+	(label "pmod3_io14"
 		(at 158.75 241.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23885,7 +23885,7 @@
 		)
 		(uuid "8a2ddaea-04e6-4eae-bd9b-eafb0d4b9da1")
 	)
-	(label "xhdmi_d0n"
+	(label "xhdmi_d0-"
 		(at 64.77 130.81 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23907,7 +23907,7 @@
 		)
 		(uuid "8c368981-5457-43be-b293-f7c042486c40")
 	)
-	(label "xhdmi_d1p"
+	(label "xhdmi_d1+"
 		(at 116.84 152.4 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23918,7 +23918,7 @@
 		)
 		(uuid "8e41a46c-915b-41bd-8c71-47dcf7747380")
 	)
-	(label "hf_pscn"
+	(label "hf_psc-"
 		(at 222.25 215.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23940,7 +23940,7 @@
 		)
 		(uuid "8ef3f311-499c-452a-93a7-dbde5b1f5a6c")
 	)
-	(label "pmod3_io6p"
+	(label "pmod3_io14"
 		(at 231.14 147.32 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23962,7 +23962,7 @@
 		)
 		(uuid "92e1bff2-4f08-43fd-bd4c-f5555c6d558c")
 	)
-	(label "pmod3_io2p"
+	(label "pmod3_io6"
 		(at 76.2 218.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23973,7 +23973,7 @@
 		)
 		(uuid "93108dbd-48ee-49c5-b568-83b3f21edeeb")
 	)
-	(label "hdmi_d0n"
+	(label "hdmi_d0-"
 		(at 158.75 215.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24028,7 +24028,7 @@
 		)
 		(uuid "972b929e-7cd1-4e7a-b12e-13735b5f7cbf")
 	)
-	(label "pmod3_io6n"
+	(label "pmod3_io10"
 		(at 158.75 238.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24051,7 +24051,7 @@
 		(uuid "97ff3539-a57c-4e9d-8d34-9946da14adcb")
 	)
 	(label "hr2_rwds"
-		(at 222.25 226.06 180)
+		(at 222.25 223.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24083,7 +24083,7 @@
 		)
 		(uuid "983ab92e-96b9-4fde-950c-79e5e9b295b6")
 	)
-	(label "hf_psc"
+	(label "hf_psc+"
 		(at 295.91 222.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24139,7 +24139,7 @@
 		(uuid "9f3e839e-4718-41b0-8faf-c4587435bf7a")
 	)
 	(label "hf_csn"
-		(at 222.25 223.52 180)
+		(at 222.25 226.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24204,7 +24204,7 @@
 		)
 		(uuid "a7e846e2-e035-463f-82f1-1a222dcedd83")
 	)
-	(label "hr1_clkp"
+	(label "hr1_clk+"
 		(at 340.36 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24336,7 +24336,7 @@
 		)
 		(uuid "b1fbf1f1-9853-4f29-b397-6d6611f5573d")
 	)
-	(label "pmod3_io5p"
+	(label "pmod3_io13"
 		(at 231.14 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -24347,7 +24347,7 @@
 		)
 		(uuid "b2138eaa-6394-4417-8200-af7df7592a36")
 	)
-	(label "hf_psc"
+	(label "hf_psc+"
 		(at 222.25 218.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -24402,7 +24402,7 @@
 		)
 		(uuid "ba3d1fde-736f-4a6f-bcd5-c41ccb8d2a5b")
 	)
-	(label "pmod3_io5n"
+	(label "pmod3_io9"
 		(at 158.75 246.38 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24413,7 +24413,7 @@
 		)
 		(uuid "bdcccda6-1a43-459a-b209-36f7f7c6911e")
 	)
-	(label "xhdmi_d2n"
+	(label "xhdmi_d2-"
 		(at 116.84 154.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -24457,7 +24457,7 @@
 		)
 		(uuid "c2522603-b843-48e8-afbb-84c2ee616f2a")
 	)
-	(label "xhdmi_clkp"
+	(label "xhdmi_clk+"
 		(at 64.77 128.27 180)
 		(fields_autoplaced yes)
 		(effects
@@ -24490,7 +24490,7 @@
 		)
 		(uuid "c2a19084-02b6-4364-8bf0-67b9c875afaa")
 	)
-	(label "pmod3_io4p"
+	(label "pmod3_io12"
 		(at 158.75 256.54 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24512,7 +24512,7 @@
 		)
 		(uuid "c429b4cc-171c-42ee-b168-50a0eb8d1937")
 	)
-	(label "pmod3_io0n"
+	(label "pmod3_io0"
 		(at 76.2 231.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24523,7 +24523,7 @@
 		)
 		(uuid "c43a11f4-e3ab-43fb-b0b6-a3ff23865a35")
 	)
-	(label "xhdmi_clkn"
+	(label "xhdmi_clk-"
 		(at 76.2 53.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24556,7 +24556,7 @@
 		)
 		(uuid "c6bfece6-08bc-4cd8-a406-8738dd02aaa0")
 	)
-	(label "hdmi_clkp"
+	(label "hdmi_clk+"
 		(at 78.74 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24578,7 +24578,7 @@
 		)
 		(uuid "c9d4c0f7-2012-4a68-b487-bf0718e9a20d")
 	)
-	(label "pmod3_io6n"
+	(label "pmod3_io10"
 		(at 193.04 147.32 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24600,7 +24600,7 @@
 		)
 		(uuid "cd013cc9-9d08-413a-8ff7-364546f2e9d2")
 	)
-	(label "hr2_clkp"
+	(label "hr2_clk+"
 		(at 222.25 195.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -24611,7 +24611,7 @@
 		)
 		(uuid "cd2aedf9-3d15-49da-a0a8-e017054421aa")
 	)
-	(label "hdmi_d2p"
+	(label "hdmi_d2+"
 		(at 78.74 137.16 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24622,7 +24622,7 @@
 		)
 		(uuid "cea69480-ba68-445e-a7e6-8c4a2813c091")
 	)
-	(label "pmod3_io4n"
+	(label "pmod3_io8"
 		(at 158.75 254 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24666,7 +24666,7 @@
 		)
 		(uuid "d620b095-838f-48ce-b134-42edda8202da")
 	)
-	(label "xhdmi_d1n"
+	(label "xhdmi_d1-"
 		(at 71.12 152.4 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24677,7 +24677,7 @@
 		)
 		(uuid "d6f2259a-aa98-49f1-ab9b-c08bf5d3e34f")
 	)
-	(label "hdmi_clkn"
+	(label "hdmi_clk-"
 		(at 78.74 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24699,7 +24699,7 @@
 		)
 		(uuid "d739cac6-1c6f-497b-a44d-8edd692ae63c")
 	)
-	(label "xhdmi_d0p"
+	(label "xhdmi_d0+"
 		(at 19.05 130.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24743,7 +24743,7 @@
 		)
 		(uuid "d94844cc-3f03-4ef7-bf7f-edfcb137ba25")
 	)
-	(label "pmod3_io4n"
+	(label "pmod3_io8"
 		(at 193.04 142.24 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24754,7 +24754,7 @@
 		)
 		(uuid "dbd466be-ebaf-4a6a-93ec-d5456bce41fa")
 	)
-	(label "hdmi_d2n"
+	(label "hdmi_d2-"
 		(at 78.74 143.51 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24776,7 +24776,7 @@
 		)
 		(uuid "deec4576-f71f-44d0-af3b-1426b6d898e7")
 	)
-	(label "xhdmi_d0p"
+	(label "xhdmi_d0+"
 		(at 76.2 45.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24809,7 +24809,7 @@
 		)
 		(uuid "e0012704-e036-4c2c-bdd1-9a44ab737b95")
 	)
-	(label "pmod3_io4p"
+	(label "pmod3_io12"
 		(at 231.14 142.24 180)
 		(fields_autoplaced yes)
 		(effects
@@ -24831,7 +24831,7 @@
 		)
 		(uuid "e05cb354-412b-4dd5-a82a-f09ff4c228b2")
 	)
-	(label "pmod3_io1n"
+	(label "pmod3_io1"
 		(at 193.04 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24864,7 +24864,7 @@
 		)
 		(uuid "e222f929-8665-4a1c-a808-89be855daa04")
 	)
-	(label "pmod3_io7n"
+	(label "pmod3_io11"
 		(at 193.04 149.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24875,7 +24875,7 @@
 		)
 		(uuid "e250b429-7974-4995-888d-53eaf77e34dc")
 	)
-	(label "pmod3_io1p"
+	(label "pmod3_io5"
 		(at 231.14 113.03 180)
 		(fields_autoplaced yes)
 		(effects
@@ -24897,7 +24897,7 @@
 		)
 		(uuid "e5298f6f-2a8a-4823-86ae-d5da7d430a43")
 	)
-	(label "pmod3_io0n"
+	(label "pmod3_io0"
 		(at 193.04 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24919,7 +24919,7 @@
 		)
 		(uuid "e79153f8-7b74-4020-8af1-fe843256f476")
 	)
-	(label "xhdmi_d0n"
+	(label "xhdmi_d0-"
 		(at 76.2 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24930,7 +24930,7 @@
 		)
 		(uuid "ea75ff3e-dbbc-40c5-b839-d163d0152e4f")
 	)
-	(label "hdmi_clkn"
+	(label "hdmi_clk-"
 		(at 158.75 193.04 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24941,7 +24941,7 @@
 		)
 		(uuid "eb545101-3e4b-450b-a0c1-8360ec2e8976")
 	)
-	(label "pmod3_io3n"
+	(label "pmod3_io3"
 		(at 193.04 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -24985,7 +24985,7 @@
 		)
 		(uuid "f32d8534-d5ea-4f4c-9a28-ddd65ddbe400")
 	)
-	(label "xhdmi_d1p"
+	(label "xhdmi_d1+"
 		(at 76.2 40.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -25007,7 +25007,7 @@
 		)
 		(uuid "f63147fd-63d4-4d4b-98c0-f6e7d9f0a7f0")
 	)
-	(label "hr2_clkn"
+	(label "hr2_clk-"
 		(at 222.25 193.04 180)
 		(fields_autoplaced yes)
 		(effects
@@ -25018,7 +25018,7 @@
 		)
 		(uuid "f680b4b9-34ca-40ab-9e18-0293dfb1e281")
 	)
-	(label "pmod3_io2n"
+	(label "pmod3_io2"
 		(at 193.04 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -25073,7 +25073,7 @@
 		)
 		(uuid "fc7947d5-742e-4be7-82d9-e28c53baec60")
 	)
-	(label "hdmi_d2n"
+	(label "hdmi_d2-"
 		(at 158.75 200.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -25084,7 +25084,7 @@
 		)
 		(uuid "fce391d9-2823-4018-b9bd-7c4f352f574b")
 	)
-	(label "pmod3_io2n"
+	(label "pmod3_io2"
 		(at 76.2 215.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -25106,7 +25106,7 @@
 		)
 		(uuid "fe085b63-fa31-4791-af21-31d43eb364ff")
 	)
-	(label "hdmi_d0n"
+	(label "hdmi_d0-"
 		(at 78.74 118.11 0)
 		(fields_autoplaced yes)
 		(effects
