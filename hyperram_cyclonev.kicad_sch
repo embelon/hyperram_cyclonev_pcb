@@ -22995,7 +22995,7 @@
 		(uuid "24a37c43-7314-4164-a14f-de1281e648f2")
 	)
 	(label "xhdmi_d0+"
-		(at 110.49 111.76 180)
+		(at 110.49 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23237,7 +23237,7 @@
 		(uuid "395d8365-2ea4-4cc6-8054-4975d7e63234")
 	)
 	(label "hdmi_d2+"
-		(at 158.75 203.2 0)
+		(at 158.75 218.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23545,7 +23545,7 @@
 		(uuid "6634c56b-6bb2-41f8-b2f0-9a7b0d785779")
 	)
 	(label "hdmi_d0+"
-		(at 78.74 111.76 0)
+		(at 78.74 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23600,7 +23600,7 @@
 		(uuid "6b0b6373-5c10-4256-972e-14a23d7c0706")
 	)
 	(label "xhdmi_d0-"
-		(at 110.49 118.11 180)
+		(at 110.49 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23710,7 +23710,7 @@
 		(uuid "78c78b33-3673-4b2c-a728-cf7a890c4252")
 	)
 	(label "xhdmi_d2-"
-		(at 110.49 143.51 180)
+		(at 110.49 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23732,7 +23732,7 @@
 		(uuid "79b70fad-ac74-41fd-87b2-d63034135e08")
 	)
 	(label "xhdmi_d2+"
-		(at 110.49 137.16 180)
+		(at 110.49 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23787,7 +23787,7 @@
 		(uuid "80821dee-37f9-44bf-8686-a039ac4f9122")
 	)
 	(label "hdmi_d0+"
-		(at 158.75 218.44 0)
+		(at 158.75 203.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23974,7 +23974,7 @@
 		(uuid "93108dbd-48ee-49c5-b568-83b3f21edeeb")
 	)
 	(label "hdmi_d0-"
-		(at 158.75 215.9 0)
+		(at 158.75 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24612,7 +24612,7 @@
 		(uuid "cd2aedf9-3d15-49da-a0a8-e017054421aa")
 	)
 	(label "hdmi_d2+"
-		(at 78.74 137.16 0)
+		(at 78.74 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24755,7 +24755,7 @@
 		(uuid "dbd466be-ebaf-4a6a-93ec-d5456bce41fa")
 	)
 	(label "hdmi_d2-"
-		(at 78.74 143.51 0)
+		(at 78.74 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25074,7 +25074,7 @@
 		(uuid "fc7947d5-742e-4be7-82d9-e28c53baec60")
 	)
 	(label "hdmi_d2-"
-		(at 158.75 200.66 0)
+		(at 158.75 215.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25107,7 +25107,7 @@
 		(uuid "fe085b63-fa31-4791-af21-31d43eb364ff")
 	)
 	(label "hdmi_d0-"
-		(at 78.74 118.11 0)
+		(at 78.74 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
