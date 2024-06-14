@@ -10579,6 +10579,434 @@
 				)
 			)
 		)
+		(symbol "SESD0802Q4UG-0020-090_1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SESD0802Q4UG-0020-090"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SESD0802Q4UG0020090"
+				(at 21.59 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://m.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sesd_ultra_low_capacitance_diode_arrays_datasheet.pdf.pdf"
+				(at 21.59 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "LITTELFUSE - SESD0802Q4UG-0020-090 - ESD SUPPRESSOR, 0.2PF, 4 CH"
+				(at 21.59 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.43"
+				(at 21.59 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "650-SESD0802Q4UG0020"
+				(at 21.59 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SESD0802Q4UG-0020-090?qs=R4Nx89tKnBgnn05AjUgTFg%3D%3D"
+				(at 21.59 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 21.59 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SESD0802Q4UG-0020-090"
+				(at 21.59 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "SESD0802Q4UG-0020-090_1_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SESD0802Q4UG-0020-090_1_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SESD0802Q4UG-0020-090_1_1_0"
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "K_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "K_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "K_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SESD0802Q4UG-0020-090_2"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SESD0802Q4UG-0020-090"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SESD0802Q4UG0020090"
+				(at 21.59 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://m.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sesd_ultra_low_capacitance_diode_arrays_datasheet.pdf.pdf"
+				(at 21.59 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "LITTELFUSE - SESD0802Q4UG-0020-090 - ESD SUPPRESSOR, 0.2PF, 4 CH"
+				(at 21.59 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.43"
+				(at 21.59 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "650-SESD0802Q4UG0020"
+				(at 21.59 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SESD0802Q4UG-0020-090?qs=R4Nx89tKnBgnn05AjUgTFg%3D%3D"
+				(at 21.59 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 21.59 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SESD0802Q4UG-0020-090"
+				(at 21.59 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "SESD0802Q4UG-0020-090_2_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SESD0802Q4UG-0020-090_2_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SESD0802Q4UG-0020-090_2_1_0"
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "K_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "K_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "K_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "VCCQ_1"
 			(power)
 			(pin_numbers hide)
@@ -15713,8 +16141,24 @@
 						)
 					)
 				)
+			)
+			(symbol "SESD0802Q4UG-0020-090_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SESD0802Q4UG-0020-090_1_0"
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 25.4 0 180)
 					(length 5.08)
 					(name "K_2"
 						(effects
@@ -15732,9 +16176,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 25.4 -2.54 180)
 					(length 5.08)
-					(name "G"
+					(name "K_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15750,9 +16194,9 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 0 180)
+					(at 0 -2.54 0)
 					(length 5.08)
-					(name "K_3"
+					(name "K_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15768,9 +16212,9 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -2.54 180)
+					(at 0 -5.08 0)
 					(length 5.08)
-					(name "K_4"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15783,20 +16227,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "SESD0802Q4UG-0020-090_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -23309,13 +23739,13 @@
 		(uuid "2a58a684-2b7d-4fcc-93eb-19c25eec606c")
 	)
 	(label "ddc_dat"
-		(at 64.77 152.4 180)
+		(at 19.05 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2ab66e75-b2c1-44dc-a080-a851d22b3cd3")
 	)
@@ -23661,7 +24091,7 @@
 		(uuid "5695a350-7416-4291-9ce2-cbef3dfa8b6f")
 	)
 	(label "ddc_clk"
-		(at 64.77 154.94 180)
+		(at 64.77 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24079,13 +24509,13 @@
 		(uuid "82e40162-47db-499a-ad47-32514ad66dd8")
 	)
 	(label "xhdmi_d2+"
-		(at 71.12 154.94 0)
+		(at 116.84 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "833854c5-71a6-40cc-a94d-9c216d38e251")
 	)
@@ -24167,7 +24597,7 @@
 		(uuid "8a2ddaea-04e6-4eae-bd9b-eafb0d4b9da1")
 	)
 	(label "xhdmi_d0-"
-		(at 64.77 130.81 180)
+		(at 64.77 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24189,13 +24619,13 @@
 		(uuid "8c368981-5457-43be-b293-f7c042486c40")
 	)
 	(label "xhdmi_d1+"
-		(at 116.84 152.4 180)
+		(at 71.12 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8e41a46c-915b-41bd-8c71-47dcf7747380")
 	)
@@ -24365,13 +24795,13 @@
 		(uuid "9838b5c3-6149-4934-a797-f1b4a5684059")
 	)
 	(label "cec"
-		(at 19.05 154.94 0)
+		(at 64.77 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "983ab92e-96b9-4fde-950c-79e5e9b295b6")
 	)
@@ -24717,7 +25147,7 @@
 		(uuid "bdcccda6-1a43-459a-b209-36f7f7c6911e")
 	)
 	(label "xhdmi_d2-"
-		(at 116.84 154.94 180)
+		(at 116.84 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24761,13 +25191,13 @@
 		(uuid "c2522603-b843-48e8-afbb-84c2ee616f2a")
 	)
 	(label "xhdmi_clk+"
-		(at 64.77 128.27 180)
+		(at 19.05 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c26d1c12-8309-4b29-acf7-370231cb36ee")
 	)
@@ -25003,13 +25433,13 @@
 		(uuid "d739cac6-1c6f-497b-a44d-8edd692ae63c")
 	)
 	(label "xhdmi_d0+"
-		(at 19.05 130.81 0)
+		(at 64.77 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d7aa175d-4a27-4ba3-a897-9d76b5df9ea1")
 	)
@@ -26892,6 +27322,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SESD0802Q4UG-0020-090_2")
 		(lib_id "hyperram_cyclonev:SESD0802Q4UG-0020-090")
 		(at 29.21 152.4 0)
 		(unit 1)
@@ -26916,7 +27347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hyperram_cyclonev:SESD0802Q4UG0020090"
+		(property "Footprint" "SESD0802Q4UG0020090"
 			(at 50.8 149.86 0)
 			(effects
 				(font
@@ -31262,7 +31693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hyperram_cyclonev:SESD0802Q4UG0020090"
+		(property "Footprint" "SESD0802Q4UG0020090"
 			(at 102.87 149.86 0)
 			(effects
 				(font
@@ -32963,6 +33394,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SESD0802Q4UG-0020-090_1")
 		(lib_id "hyperram_cyclonev:SESD0802Q4UG-0020-090")
 		(at 29.21 128.27 0)
 		(unit 1)
@@ -32987,7 +33419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hyperram_cyclonev:SESD0802Q4UG0020090"
+		(property "Footprint" "SESD0802Q4UG0020090"
 			(at 50.8 125.73 0)
 			(effects
 				(font
