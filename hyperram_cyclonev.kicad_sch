@@ -27276,7 +27276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SESD1004Q4UG0020090"
+		(property "Footprint" "hyperram_cyclonev:SESD1004Q4UG0020090"
 			(at 119.38 249.86 0)
 			(effects
 				(font
@@ -29283,7 +29283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SESD1004Q4UG0020090"
+		(property "Footprint" "hyperram_cyclonev:SESD1004Q4UG0020090"
 			(at 58.42 224.46 0)
 			(effects
 				(font
@@ -33299,7 +33299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SESD1004Q4UG0020090"
+		(property "Footprint" "hyperram_cyclonev:SESD1004Q4UG0020090"
 			(at 58.42 249.86 0)
 			(effects
 				(font
