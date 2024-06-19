@@ -56,11 +56,6 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.127,
-          "via_gap": 0.1524,
-          "width": 0.254
         }
       ],
       "drc_exclusions": [],
@@ -543,11 +538,11 @@
     "netclass_patterns": [
       {
         "netclass": "HDMI_Diff",
-        "pattern": "/hdmi_d*"
+        "pattern": "/hdmi_*"
       },
       {
         "netclass": "HDMI_Diff",
-        "pattern": "/hdmi_clk*"
+        "pattern": "/xhdmi_*"
       }
     ]
   },
