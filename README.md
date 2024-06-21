@@ -14,3 +14,6 @@ I/O
 - 8bit LA header (shared signals with PMOD3/J5)
 - 7 debug signals
 
+### Images
+![top](https://embelon.github.io/hyperram_cyclonev_pcb/top.png)
+![bottom](https://embelon.github.io/hyperram_cyclonev_pcb/bottom.png)
