@@ -21462,7 +21462,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 287.1216 245.8212 90)
 			(effects
 				(font
@@ -23729,7 +23729,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "12V"
 			(at 275.4884 243.1288 90)
 			(effects
 				(font
@@ -27147,7 +27147,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "5V"
 			(at 269.1384 243.1288 90)
 			(effects
 				(font
@@ -32077,7 +32077,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "3V3"
 			(at 262.7884 243.1288 90)
 			(effects
 				(font
