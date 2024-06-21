@@ -17705,6 +17705,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 77.47) (xy 161.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17aa02d7-e248-4e81-95eb-7478b4b455c8")
+	)
+	(wire
+		(pts
 			(xy 86.36 118.11) (xy 99.06 118.11)
 		)
 		(stroke
@@ -18825,7 +18835,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.37 19.05) (xy 314.325 19.05)
+			(xy 152.4 19.05) (xy 314.325 19.05)
 		)
 		(stroke
 			(width 0)
@@ -20815,6 +20825,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 72.39) (xy 161.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1ee8d6-d3cd-49c6-a796-95f35170903b")
+	)
+	(wire
+		(pts
 			(xy 158.75 215.9) (xy 172.72 215.9)
 		)
 		(stroke
@@ -22025,6 +22045,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 69.85) (xy 171.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71feb58-bdb1-4074-a4cc-ec2b5a83e979")
+	)
+	(wire
+		(pts
 			(xy 384.81 229.87) (xy 383.54 229.87)
 		)
 		(stroke
@@ -22065,7 +22095,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.37 19.05) (xy 166.37 88.9)
+			(xy 152.4 19.05) (xy 152.4 88.9)
 		)
 		(stroke
 			(width 0)
@@ -22855,7 +22885,7 @@
 	)
 	(polyline
 		(pts
-			(xy 314.325 88.9) (xy 166.37 88.9)
+			(xy 314.325 88.9) (xy 152.4 88.9)
 		)
 		(stroke
 			(width 0)
@@ -23030,7 +23060,7 @@
 	)
 	(text "PMOD 5V / 3.3V"
 		(exclude_from_sim no)
-		(at 166.37 18.415 0)
+		(at 152.4 18.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29997,7 +30027,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 171.45 74.93 0)
+		(at 161.29 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30005,7 +30035,7 @@
 		(dnp no)
 		(uuid "5eff454e-d2bb-4740-92d3-e21c12dcbf3d")
 		(property "Reference" "C2"
-			(at 173.7868 73.7616 0)
+			(at 163.6268 73.7616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30014,7 +30044,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 173.7868 76.073 0)
+			(at 163.6268 76.073 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30023,7 +30053,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 171.45 74.93 0)
+			(at 161.29 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30032,7 +30062,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 74.93 0)
+			(at 161.29 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30041,7 +30071,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 74.93 0)
+			(at 161.29 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30050,7 +30080,7 @@
 			)
 		)
 		(property "Part" "CL21A226MAYNNNE "
-			(at 171.45 74.93 0)
+			(at 161.29 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31799,6 +31829,72 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
+		(at 161.29 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96a7ae56-2ce8-4631-bce0-d08bf32e8c5f")
+		(property "Reference" "#PWR013"
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f62c5868-a90a-40a6-b7d6-3c4feef3e7e0")
+		)
+		(instances
+			(project "hyperram_cyclonev"
+				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
 		(at 63.5 273.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33532,6 +33628,84 @@
 			(project "hyperram_cyclonev"
 				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 171.45 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af8ea0f6-084a-4b84-89a3-d09a687330d6")
+		(property "Reference" "C25"
+			(at 173.7868 73.7616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 173.7868 76.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL21A226MAYNNNE "
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90a35d05-8b4b-4aff-9694-342e66475094")
+		)
+		(pin "2"
+			(uuid "3cc41524-5d8d-4a16-82d0-fed94f342d55")
+		)
+		(instances
+			(project "hyperram_cyclonev"
+				(path "/42eba7a3-1298-45f5-b9c6-7800ee22d64c"
+					(reference "C25")
 					(unit 1)
 				)
 			)
